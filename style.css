@@ -1,0 +1,29 @@
+div {
+	color: orange;
+	font-style: italic;
+	border: 1px dotted #000000;
+	margin-bottom: 10px;
+	padding: 15px 10px;
+	background-color: #000000;
+}
+
+span {
+	color: green;
+}
+
+p {
+	color: blue;
+	text-decoration: underline;
+}
+
+h1 {
+	color: red;
+	text-transform: capitalize;
+	font-size: 24px;
+
+}
+
+.gray-color {
+	color: gray;
+	font-weight: bold;
+}
