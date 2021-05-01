@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 10px;
+    background-color: gray;
+}
+
+li {
+    display: inline;
+}
+ li a {
+     color: #fff;
+     padding: 0 10px;
+     text-decoration: none;
+ }
+ li a:hover {
+     color: orange;
+ }
+
+ label {
+     display: inline-block;
+     width: 10%
+ }

@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <div class="container">
+        <h4>Please fill your information</h4>
+        <form>
+            <div class="name">
+                <label>Name</label>
+                <input type="text" id="name"/>
+            </div>
+            <div class="email">
+                <label>Email</label>
+            <input type="text" id="email"/>
+            </div>
+            <div class="tel">
+                <label>Mobile Number</label>
+            <input type="text" id="tel"/>
+            </div>
+            <div class="city">
+                <label>City</label>
+            <input type="text" id="city"/>
+            </div>
+        <button type="button" class="btn btn-sm btn-primary" onclick="getContactDetail()">Submit</button>
+        <button type="reset" class="btn">Reset</button>
+        </form>
+        <h4>Contact List</h4>
+        <table class="table table-bordered" id="contactTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Tel</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="4">No Records Founds</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+<script src="nav.js"></script>
+</html>

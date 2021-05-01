@@ -60,6 +60,17 @@ console.log('index',arr.indexOf({
     age: 31
 }));
 
+/* Map Example */
+var newMap = arr.map(function(ele) {
+    return ele*ele
+})
 
+console.log("new Map", newMap)
+
+var _reduce = arr.reduce(function(prev, cur) {
+    return prev+cur;
+})
+
+console.log("reduce",_reduce);
 
 //map, filter, reduce, find .....
